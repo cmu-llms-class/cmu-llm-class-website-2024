@@ -1,0 +1,49 @@
+# Site settings
+course_name: "Large Language Models: Methods and Applications"
+course_description: "Large Language Models Methods and Applications (11-667) is a graduate-level course that aims to provide a holistic view of the current state of large language models. " 
+course_semester: "Fall 2024"
+
+baseurl: "/foo" # the subpath of your site, e.g. /blog/
+url: "http://cmu-llms.org" # the base hostname & protocol for your site
+
+schoolname: "Carnegie Mellon University"
+schoolurl: "https://www.lti.cs.cmu.edu/"
+
+address: "5000 Forbes Ave\n Pittsburgh, PA 15213"
+
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: false
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"

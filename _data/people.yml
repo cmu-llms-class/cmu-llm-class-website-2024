@@ -1,0 +1,33 @@
+instructors:
+  - name: Chenyan Xiong
+    profile_pic: /_images/pp/chenyan.jpg
+    webpage: https://www.cs.cmu.edu/~cx/
+  - name: Daphne Ippolito
+    profile_pic: /_images/pp/daphne.png
+    webpage: https://www.daphnei.com/
+
+teaching_assistants:
+  - name: Cathy Jiao
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/jiao-cathy.html
+  - name: Joao Coelho
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/coelho-joao.html
+  - name: Ava Yan
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/yan-lan.html
+  - name: Kshitish Ghate
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/ghate-kshitish.html
+  - name: Xinyue Liu
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/liu-xinyue.html
+  - name: Nishant Subramani
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/subramani-nishant.html
+  - name: Yiming Zhang
+    profile_pic: /_images/pp/yiming.jpg
+    webpage: https://lti.cmu.edu/people/students/zhang-yiming.html
+  - name: Harshita Diddee
+    profile_pic: /_images/pp/placeholder.png
+    webpage: https://lti.cmu.edu/people/students/diddee-harshita.html

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Syllabus - Large Language Models: Methods and Applications / Fall 2024 </title>
+  <meta name="description" content="Syllabus - Large Language Models: Methods and Applications / Fall 2024">
+  
+  <link rel="stylesheet" href="/foo/_css/main.css">
+  <link rel="canonical" href="http://localhost:4000/foo/syllabus/">
+  <link rel="alternate" type="application/rss+xml" title="Large Language Models: Methods and Applications / Fall 2024 - Carnegie Mellon University" href="http://localhost:4000/foo/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper" style="z-index: 100;">
+      <table><tr>
+          <td><img width="75" src="/foo/_images/logo.png" valign="middle"></td>
+          <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a>
+          <br/>
+          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/foo/" title="Large Language Models: Methods and Applications / Fall 2024 - Carnegie Mellon University"><b>Large Language Models: Methods and Applications</a></b></span>
+          <br/>
+          <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 10px;display: block;">Fall 2024</span>
+          </td>
+        </tr></table>
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+    
+    <li>
+        <a class="page-link" href="/foo/">
+            <i class="fa fa-home fa-lg"></i> Home
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/foo/syllabus/">
+            <i class="fas fa-book-reader"></i> Syllabus
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/foo/schedule/">
+            <i class="fas fa-calendar-alt"></i> Schedule
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/foo/assignments/">
+            <i class="fas fa-user-graduate"></i> Assignments
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/foo/materials/">
+            <i class="fas fa-book"></i> Materials
+        </a>
+    </li>
+    
+</ul>
+
+     </div>  
+    </nav>
+
+  </div>
+
+  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0; 
+  background-image: url('/foo/_images/pattern.png');" />
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Syllabus</h1>
+  </header>
+
+  <article class="post-content">
+    <h2 id="important-details">Important Details</h2>
+
+<ul>
+  <li><strong>Location</strong>: <a href="https://www.cmu.edu/finance/property-space/floorplan-room/acad-admin/BPH/index.html">Baker Hall</a> A51</li>
+  <li><strong>Time</strong>: Tuesdays and Thursdays 2 PM - 3:20 PM</li>
+  <li><strong>Instructor email</strong>: llms-11-667 @ andrew.cmu.edu</li>
+</ul>
+
+<h2 id="course-description">Course Description</h2>
+
+<p>Large Language Models Methods and Applications (11-667) is a graduate-level course that aims to provide a holistic view of the current state of large language models.
+The first half of this course starts with the basic of language models, including network architectures, training, inference, and evaluation.
+Then it discusses the interpretation (or attempts of), alignments, and emergent capabilities of large language models, followed by its popular applications in language tasks and new utilizations beyond texts.
+In the second half, this course first presents the techniques of scaling up language model pretraining and recent approaches in making the pretraining of large models and their deployment more efficient.
+It then discusses various concerns surrounding the deployment of large language models and wraps up with the challenges and frontiers of LLM developments.</p>
+
+<p>This course is designed to give graduate-level students an overview of the techniques behind LLMs and a thorough grounding on the fundamentals and cutting-edge developments of LLMs, to prepare them for further research or applied endeavors in this new AI era.</p>
+
+<h2 id="learning-goals">Learning Goals</h2>
+
+<p>Students who successfully complete this course will be able to:</p>
+
+<ul>
+  <li>Compare and contrast different models in the LLM ecosystem in order to determine the best model for any given task.</li>
+  <li>Implement and train a neural language model from scratch in Pytorch.</li>
+  <li>Utilize open-source libraries to finetune and do inference with popular pre-trained language models.</li>
+  <li>Understand how to apply LLMs to a variety of downstream applications, and how decisions made during pre-training affect suitability for these tasks.</li>
+  <li>Read and comprehend recent, academic papers on LLMs and have knowledge of the common terms used in them (alignment, scaling laws, RLHF, prompt engineering, instruction tuning, etc.).</li>
+  <li>Design new methodologies to leverage existing large scale language models in novel ways.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Students should have a basic understanding of machine learning, equivalent to the material covered by <a href="http://www.cs.cmu.edu/~mgormley/courses/10601/schedule.html">10-301/10-601</a>, and be familiar with concepts in natural language processing, equivalent to those covered by <a href="http://demo.clab.cs.cmu.edu/NLP/">11-411/11-611</a>.</p>
+
+<p>Students are expected to be fluent in Python. Familiarity with deep learning frameworks such as PyTorch will also be helpful.</p>
+
+<h2 id="class-format">Class Format</h2>
+
+<p>Classes will be in person, every Tuesday and Thursday 2:00PM-3:20PM at Baker Hall A51.</p>
+
+<p><strong>Readings</strong>: There will be reading materials for each lecture, which students are required to read through  <em>before</em> the class.</p>
+
+<p><strong>Quizes</strong>: Each class will start with an in-person quiz about the reading materials for the lecture or the material from previous lectures.</p>
+
+<p><strong>Interactive Activities</strong>:
+There will be ungraded, interactive activities interspersed through the lectures.
+These will be things like discussing a topic from the class with those sitting near you or answering questions via polling software.</p>
+
+<p><strong>Homework</strong>: There will be six homework assignments, to be completed individually.</p>
+
+<p><strong>Exams:</strong> There will be a midterm exam and a final exam.</p>
+
+<h2 id="grading">Grading</h2>
+
+<ul>
+  <li>60%: Homeworks
+    <ul>
+      <li>Each homework is worth 10% of your grade.</li>
+    </ul>
+  </li>
+  <li>20%: Midterm exam
+    <ul>
+      <li>Date TBD</li>
+    </ul>
+  </li>
+  <li>20%: Final exam
+    <ul>
+      <li>Date TBD</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="late-policy">Late Policy</h2>
+
+<p>Each student has six free late days to use across the six homeworks.
+If you are out of late days, then you will not be able to get credit for subsequent late homeworks. 
+One “day” is defined as anytime between 1 second and 24 hours after the homework deadline.
+The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses.
+To use your late days on a homework, you <strong>MUST</strong> fill out <a href="https://forms.gle/pScBLUTirr3K7vJc7">this form</a>.</p>
+
+<p>In the event of a medical emergency, please make your personal health, physical and mental, your first priority.
+Seek help from medical and care providers such as University Health Services.
+Students can request medical extensions afterwards with proof/note from providers.
+These will not count toward your 5 days.
+For other emmergencies and absences, students can request extensions with corresponding documentation in a case-by-case basis with instructors.</p>
+
+<h2 id="accomodations">Accomodations</h2>
+<p>If you have a disability and require
+accommodations, please contact Catherine Getchell, Director of Disability Resources, 412-268-6121,
+getchell@cmu.edu.
+If you have an accommodations letter from the Disability Resources office, we encourage you to discuss your accommodations and needs with us as early in the semester as possible.
+We will work with you to ensure that accommodations are provided as appropriate.</p>
+
+<h2 id="policy-on-missing-class">Policy on Missing Class</h2>
+
+<p>Classes will not be recorded. If you must miss class, you should arrange to get notes from a friend.</p>
+
+<h2 id="academic-integrity">Academic Integrity</h2>
+<p>Please take some time to read through CMU’s <a href="https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html">Academic Integrity Policy</a>.
+Students who violate this policy will be subject to the disciplinary actions described in the <a href="https://www.cmu.edu/student-affairs/theword/academic-discipline/index.html">Student Handbook</a>.</p>
+
+<h3 id="collaboration-on-homeworks">Collaboration on Homeworks</h3>
+<p>The six homeworks should be completed individually.
+However, we encourage you to ask questions on Piazza and in office hours.
+While you may discuss strategies amongst yourselves, all experiments and analyses should be your own.</p>
+
+<h3 id="use-of-language-models">Use of Language Models</h3>
+<p>Using a language model to generate any part of a homework answer without attribution will be considered a violation of academic integrity.
+This means that if you use ChatGPT or CoPilot to assist you on a homework, you <strong>must</strong> state so explicitly within your response.
+On each homework, you will be asked to attest to whether you used AI systems to assist on the homework, and if so, in what manner.
+If you have used AI systems to generate any part of your homework, you must submit the prompts/instructions/inputs you used to obtain the generated output.
+Your grading will be based on both the correctness of your homework response and the quality of your prompts/instructions.
+Errors in the generated outputs that appear in your homework response , and non-interesting prompts, e.g., merely putting in the homework questions to the language model, are not intellectual efforts and are unlikely to receive a good grade.</p>
+
+
+<ul id="archive">
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Building blocks of modern LLMs</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Transformer architecture and pre-training learning objectives</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Pre-training data curation and tokenization</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Architecture advancements since 2019: mixture-of-experts, layer norms, relative attention, RoPE embeddings</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Automatic evaluation of LLMs</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Task-oriented finetuning and parameter-efficient tuning methods</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Instruction tuning and chain-of-thought reasoning</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Alignment, RLHF, jail-breaking</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Retrieval-augmented generation</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Guest lecture</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Tool use</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Popular benchmarks and their brittleness</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Interpretability methods</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Human evaluation</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Fall break - no class</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Fall break - no class</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">MIDTERM EXAM</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Bias and ethical issues</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Scaling laws</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Optimization and parallel training</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Democracy day - no class</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Long-sequence models</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Flash attention and sparse models</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Chatbots and AI agents</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Embedding learning</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Synthetic data generation, self-play, models teaching models</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Legal considerations</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">Thanksgiving - no class</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">guest lecture</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="content">
+        <span style="font-weight: bold;">guest lecture</span><br>
+
+        
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](coming_soon) -->
+<!-- - [Readings 2](coming_soon) -->
+
+
+        </div>
+        
+    </div>
+</div>
+</li>
+
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Carnegie Mellon University</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+
+         <p class="text">
+5000 Forbes Ave<br />
+ Pittsburgh, PA 15213
+      </div>
+
+      <div class="footer-col  footer-col-2">
+       <ul class="social-media-list">
+     
+
+          
+
+          
+
+          
+
+          
+
+          
+  <li>
+    <a href="https://www.lti.cs.cmu.edu/">
+      <i class="fas fa-globe" style="color:gray"></i> lti.cs.cmu.edu/
+    </a>
+  </li>
+
+
+
+
+       
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
