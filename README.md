@@ -1,6 +1,6 @@
 # Website for 2024 Iteration of 11-667.
 
-Our website is baed on: https://github.com/kazemnejad/jekyll-course-website-template
+This website is based on: https://github.com/kazemnejad/jekyll-course-website-template
 
 # Instructions for local testing
 
