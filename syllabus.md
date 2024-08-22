@@ -93,6 +93,9 @@ We will work with you to ensure that accommodations are provided as appropriate.
 
 Classes will not be recorded. If you must miss class, you should arrange to get notes from a friend.
 
+## Policy on Missing Exams
+The final exam cannot be missed. If you have a valid reason for not being able to make the midterm (for example, presenting a paper at a conference or a medical emergency), you should let us know as soon as you are aware of the conflict, and we will discuss accomodations. 
+
 ## Academic Integrity
 Please take some time to read through CMU's [Academic Integrity Policy](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html).
 Students who violate this policy will be subject to the disciplinary actions described in the [Student Handbook](https://www.cmu.edu/student-affairs/theword/academic-discipline/index.html).
