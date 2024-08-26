@@ -10,7 +10,9 @@ layout: home
 
 ### Office Hours
 
-TBD
+* Daphne: Tursdays 3:30 PM - 4:30 PM, GHC 6407
+* Chenyan: TBD, GHC 6409
+* TAs: Mondays 1 PM - 2 PM, Thursdays 11 AM -12 PM, starting in Week 2
 
 ## Contacting the Instructors
 
