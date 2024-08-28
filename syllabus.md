@@ -47,8 +47,6 @@ Classes will be in person, every Tuesday and Thursday 2:00PM-3:20PM at Baker Hal
 
 **Readings**: There will be reading materials for each lecture, which students are required to read through  _before_ the class.
 
-**Quizes**: Each class will start with an in-person quiz about the reading materials for the lecture or the material from previous lectures.
-
 **Interactive Activities**:
 There will be ungraded, interactive activities interspersed through the lectures.
 These will be things like discussing a topic from the class with those sitting near you or answering questions via polling software.
