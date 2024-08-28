@@ -63,7 +63,7 @@ These will be things like discussing a topic from the class with those sitting n
 * 60%: Homeworks
     * Each homework is worth 10% of your grade.
 * 20%: Midterm exam
-    * Date TBD
+    * Date: 10/22/2024 (in class)
 * 20%: Final exam
     * Date TBD
 
@@ -91,7 +91,7 @@ We will work with you to ensure that accommodations are provided as appropriate.
 
 ## Policy on Missing Class
 
-Classes will not be recorded. If you must miss class, you should arrange to get notes from a friend.
+We will try to record classes, but do not offer a guarantee of this. If you must miss class, you should arrange to get notes from a friend. Hwoever, we plan to make classes interactive, so please try to attend.
 
 ## Policy on Missing Exams
 The final exam cannot be missed. If you have a valid reason for not being able to make the midterm (for example, presenting a paper at a conference or a medical emergency), you should let us know as soon as you are aware of the conflict, and we will discuss accomodations. 
