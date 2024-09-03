@@ -10,8 +10,8 @@ layout: home
 
 ### Office Hours
 
-* **Daphne**: Thursdays 3:30 PM - 4:30 PM in GHC 6407
-* **Chenyan**: TBD in GHC 6409
+* **Daphne**: Tuesdays 3:30 PM - 4:30 PM in GHC 6407
+* **Chenyan**: Thursdays 3:30 PM - 4 PM in in GHC 6409
 * **TAs**: Mondays 1 PM - 2 PM in GHC 5417 and Thursdays 11 AM -12 PM in Wean Hall 3110, starting in Week 2
 
 ## Contacting the Instructors
